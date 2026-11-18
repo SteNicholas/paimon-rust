@@ -1,0 +1,54 @@
+crates/paimon/src/arrow/format/avro.rs
+  s_6132e71b148196::t_169a1403e15809 269-279,281-283
+  h_c2741d62aa4e6d 18,36-45,49-53,66,69,76-96,98-110,117-118,125,129-132,134,139-140,143,146-148,150-151,154,157-252,254-268,284-303,305-322,324-325,327-345,347-348,350-376,378-394,396-397,399-495
+  s_e7bf4c6619fd03::t_0e4ea2bda3d95d 253
+  s_6132e71b148196::t_fa58d206e09d5e 97,111-116,119-124,126-128,133,135-138,141-142,144-145,149,152-153,155-156,349
+crates/paimon/src/arrow/format/mosaic.rs
+  h_c2741d62aa4e6d 18
+Cargo.lock
+  h_c2741d62aa4e6d 7522
+benchmarks/avro/README.md
+  h_c2741d62aa4e6d 1-85
+crates/paimon/src/arrow/format/mod.rs
+  h_c2741d62aa4e6d 52-61
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  h_c2741d62aa4e6d 1-194,197-201,207-288,291-292,295-329,331-350,356-450,452-457,459-534,536-559,564-567,569-578,580-586,608-667,669-686,688-691,695-925,927-932,934-935,938-983,985,988-990
+  s_6132e71b148196::t_4d4fda70145571 330,458
+  s_6132e71b148196::t_616ff83ef62e3c 351-355,587-588
+  s_6132e71b148196::t_a62294fb327fd0 195-196,202-206,589-607,687,692-694,984,986-987
+  s_6132e71b148196::t_8587f9f40055bc 289-290,293-294,451,535,579,668,926,933,936-937
+  s_6132e71b148196::t_1c8ca022ce93ea 560-563,568
+crates/paimon/Cargo.toml
+  h_c2741d62aa4e6d 142
+crates/paimon/src/arrow/format/avro_write.rs
+  h_c2741d62aa4e6d 615-626
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4aec3ac2f9e23e7c0118a7b4c62a21ea8d9c8f0b",
+  "prompts": {},
+  "humans": {
+    "h_c2741d62aa4e6d": {
+      "author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  },
+  "sessions": {
+    "s_6132e71b148196": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1eeca-bd1c-7041-b412-f66344c10b30",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    },
+    "s_e7bf4c6619fd03": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f011-8884-7850-b6bd-4517a338169b",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
