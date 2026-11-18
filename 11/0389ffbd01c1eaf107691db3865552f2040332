@@ -1,0 +1,44 @@
+crates/paimon/src/table/data_evolution_fields.rs
+  s_1d1cfb134026af::t_31218affa99a25 277
+  s_4ed1ef0f6a0fc8::t_249727b6023eb9 201,262-266,268,276
+crates/paimon/src/spec/schema.rs
+  s_1d1cfb134026af::t_31218affa99a25 1287-1291,1302,1326-1333,1344-1348,1358-1362,2628,2633-2639,2641-2642,2700,2842-2871,2894-2949,3029-3030,4514-4518,4531-4532,6780-6787,6790,6797-6801,6804
+  s_4ed1ef0f6a0fc8::t_22b9ed39c3a6f5 675,735-736,1010,6802-6803,6806-6820
+crates/paimon/src/spec/generated_column.rs
+  s_1d1cfb134026af::t_31218affa99a25 39-390
+  s_4ed1ef0f6a0fc8::t_5f76e21cb68ceb 1-38,391-446
+crates/paimon/src/arrow/shredding/map.rs
+  s_1d1cfb134026af::t_1e8a27cab20c60 1235-1240,3037-3038,3055-3058,3143-3146,3178-3188
+  s_1d1cfb134026af::t_31218affa99a25 3193-3196
+  s_1d1cfb134026af::t_a109c2782bd20b 826,1158,1227-1234,3189-3192
+crates/paimon/src/table/kv_data_file_writer.rs
+  s_1d1cfb134026af::t_31218affa99a25 632-654,656,659
+  s_4ed1ef0f6a0fc8::t_8fd29d4da94e6d 611,615,628-631,655,657-658,660-662
+crates/paimon/src/catalog/filesystem.rs
+  s_1d1cfb134026af::t_31218affa99a25 2298,2301,2313-2432
+  s_4ed1ef0f6a0fc8::t_22f0267016815f 2270-2297,2299-2300,2302-2312,2433-2461
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "110389ffbd01c1eaf107691db3865552f2040332",
+  "prompts": {},
+  "sessions": {
+    "s_1d1cfb134026af": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ed32-4927-7a82-872a-147b6d7a9164",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    },
+    "s_4ed1ef0f6a0fc8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ecb5-ba2d-74e3-a15e-5e5dbbe4697a",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
