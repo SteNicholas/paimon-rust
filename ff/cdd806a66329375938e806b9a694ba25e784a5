@@ -1,0 +1,57 @@
+crates/paimon/src/arrow/format/avro_write.rs
+  h_c2741d62aa4e6d 615-626
+crates/paimon/src/arrow/format/mod.rs
+  h_c2741d62aa4e6d 52-61
+benchmarks/avro/README.md
+  h_c2741d62aa4e6d 1-21,28-52,60-79
+  s_6132e71b148196::t_66c3056206b3cc 22-27,53-59
+crates/paimon/src/arrow/format/avro.rs
+  s_6132e71b148196::t_169a1403e15809 284-294,296-298
+  s_6132e71b148196::t_66c3056206b3cc 125-126,141-174
+  s_6132e71b148196::t_242309204e67d6 117-118,275
+  s_6132e71b148196::t_fa58d206e09d5e 97,111-116,119-124,130,133-134,136-137,357
+  s_e7bf4c6619fd03::t_0e4ea2bda3d95d 268
+  h_c2741d62aa4e6d 18,36-45,49-53,66,69,76-96,98-110,127-129,131-132,135,138-140,175-267,269-274,276-283,299-311,313-330,332-333,335-353,355-356,358-384,386-402,404-405,407-497
+crates/paimon/Cargo.toml
+  h_c2741d62aa4e6d 142
+Cargo.lock
+  h_c2741d62aa4e6d 7522
+crates/paimon/src/arrow/format/mosaic.rs
+  h_c2741d62aa4e6d 18
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  h_c2741d62aa4e6d 1-194,197-201,207-288,291-292,295-329,331-350,356-450,452-457,459-534,536-559,564-567,569-578,580-586,608-667,669-686,688-691,695-925,927-932,934-935,938-983,985,988-990
+  s_6132e71b148196::t_616ff83ef62e3c 351-355,587-588
+  s_6132e71b148196::t_a62294fb327fd0 195-196,202-206,589-607,687,692-694,984,986-987
+  s_6132e71b148196::t_8587f9f40055bc 289-290,293-294,451,535,579,668,926,933,936-937
+  s_6132e71b148196::t_1c8ca022ce93ea 560-563,568
+  s_6132e71b148196::t_4d4fda70145571 330,458
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ffcdd806a66329375938e806b9a694ba25e784a5",
+  "prompts": {},
+  "humans": {
+    "h_c2741d62aa4e6d": {
+      "author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  },
+  "sessions": {
+    "s_6132e71b148196": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1eeca-bd1c-7041-b412-f66344c10b30",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    },
+    "s_e7bf4c6619fd03": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f011-8884-7850-b6bd-4517a338169b",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
