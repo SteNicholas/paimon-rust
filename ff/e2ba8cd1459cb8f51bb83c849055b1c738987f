@@ -1,0 +1,28 @@
+Cargo.lock
+  h_c2741d62aa4e6d 7522
+benchmarks/avro/README.md
+  h_c2741d62aa4e6d 1-85
+crates/paimon/Cargo.toml
+  h_c2741d62aa4e6d 142
+crates/paimon/src/arrow/format/avro.rs
+  h_c2741d62aa4e6d 18,36-45,49-53,66,69,76-245,247-301,303-304,306-327,329-355,357-373,375-376,378-474
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  h_c2741d62aa4e6d 1-978
+crates/paimon/src/arrow/format/avro_write.rs
+  h_c2741d62aa4e6d 615-626
+crates/paimon/src/arrow/format/mod.rs
+  h_c2741d62aa4e6d 52-61
+crates/paimon/src/arrow/format/mosaic.rs
+  h_c2741d62aa4e6d 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ffe2ba8cd1459cb8f51bb83c849055b1c738987f",
+  "prompts": {},
+  "humans": {
+    "h_c2741d62aa4e6d": {
+      "author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
