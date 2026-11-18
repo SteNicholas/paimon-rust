@@ -1,0 +1,72 @@
+crates/paimon/src/arrow/format/mosaic.rs
+  h_c2741d62aa4e6d 18
+crates/paimon/src/arrow/format/avro_write.rs
+  s_0d3574eacbf5b6::t_7a270a93da3b47 616-619
+  s_0d3574eacbf5b6::t_dc5aeb60b796e4 580-581
+crates/paimon/src/arrow/format/avro.rs
+  s_6132e71b148196::t_242309204e67d6 115-116,272
+  s_0d3574eacbf5b6::t_c474aa0a5738a2 44,317
+  s_6132e71b148196::t_fa58d206e09d5e 95,109-114,117-122,128,130-131,133-134,353
+  s_e7bf4c6619fd03::t_0e4ea2bda3d95d 265
+  s_6132e71b148196::t_169a1403e15809 281-291,293-295
+  s_6132e71b148196::t_66c3056206b3cc 123-124,138-171
+  h_c2741d62aa4e6d 18,36-43,48-52,67,74-94,96-108,125-127,129,132,135-137,172-231,233-264,266-271,273-280,296-308,310-316,318-326,328-329,331-349,351-352,354-380,382-398,400-401,403-493
+  s_0d3574eacbf5b6::t_dc5aeb60b796e4 232
+crates/paimon/src/arrow/format/mod.rs
+  h_c2741d62aa4e6d 52-61
+Cargo.lock
+  h_c2741d62aa4e6d 7522
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  s_0d3574eacbf5b6::t_aca967d6ef7c2d 541,544-558,560-571,573-574,576-577,580,582,584-585,588-593
+  s_6132e71b148196::t_8587f9f40055bc 255-256,259-260,417,501,655,913,920,923-924
+  s_6132e71b148196::t_a62294fb327fd0 195-196,202-206,572,581,586-587,594,674,679-681,971,973-974
+  s_6132e71b148196::t_616ff83ef62e3c 317-321
+  s_6132e71b148196::t_1c8ca022ce93ea 526-529,534
+  s_0d3574eacbf5b6::t_7a270a93da3b47 575,578-579,583
+  s_6132e71b148196::t_4d4fda70145571 296,424
+  h_c2741d62aa4e6d 1-194,197-201,207-254,257-258,261-295,297-316,322-416,418-423,425-500,502-525,530-533,535-540,542-543,559,595-654,656-673,675-678,682-912,914-919,921-922,925-970,972,975-977
+benchmarks/avro/README.md
+  s_6132e71b148196::t_66c3056206b3cc 22-27,53-59
+  h_c2741d62aa4e6d 1-21,28-52,60-79
+crates/paimon/src/table/data_file_reader.rs
+  s_0d3574eacbf5b6::t_c474aa0a5738a2 972-974
+crates/paimon/Cargo.toml
+  h_c2741d62aa4e6d 142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7c5f3cb682d5779c797845bb1873f5d6d0c03a13",
+  "prompts": {},
+  "humans": {
+    "h_c2741d62aa4e6d": {
+      "author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  },
+  "sessions": {
+    "s_0d3574eacbf5b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f04f-daa8-77f1-9c68-ebe9f0501e50",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    },
+    "s_6132e71b148196": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1eeca-bd1c-7041-b412-f66344c10b30",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    },
+    "s_e7bf4c6619fd03": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f011-8884-7850-b6bd-4517a338169b",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
