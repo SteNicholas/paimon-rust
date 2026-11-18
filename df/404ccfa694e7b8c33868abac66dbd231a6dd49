@@ -23,6 +23,7 @@ docs/src/getting-started.md
   s_1d1cfb134026af::t_aaa13e061e9cfa 581-583
   s_1d1cfb134026af::t_363d42d3c5a637 577-580
   s_1d1cfb134026af::t_160a52a3ac3e17 565-567
+  s_1d1cfb134026af::t_bfdcf573c8b740 543-564
 crates/paimon/src/arrow/shredding/map.rs
   s_1d1cfb134026af::t_a109c2782bd20b 826,1158,1227-1234,3189-3192
   s_1d1cfb134026af::t_1e8a27cab20c60 1235-1240,3037-3038,3055-3058,3143-3146,3178-3188
@@ -39,6 +40,33 @@ crates/paimon/src/table/format_table_defaults.rs
 crates/paimon/src/table/data_evolution_fields.rs
   s_4ed1ef0f6a0fc8::t_249727b6023eb9 201,262-266,268,276
   s_1d1cfb134026af::t_31218affa99a25 277
+crates/paimon/src/spec/map_selected_keys.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 107-109,112-116
+crates/paimon/src/table/data_file_reader.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 1293-1296,1347,1938-1940,1960-1964,1996-1997,2012-2015
+crates/paimon/src/spec/mod.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 59
+crates/integrations/datafusion/src/variant_pushdown.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 359
+crates/paimon/src/variant.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 2566
+bindings/python/python/pypaimon_rust/datafusion.pyi
+  s_1d1cfb134026af::t_bfdcf573c8b740 39
+crates/integrations/datafusion/tests/variant_pushdown.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 22-24,28-37,39-50,118-133
+crates/paimon/src/arrow/mod.rs
+  s_1d1cfb134026af::t_fbfa4eeab9a2d6 964
+  s_1d1cfb134026af::t_71dc2c5d31813d 925-938,961-963,965-975,981-990,1001-1002
+  s_1d1cfb134026af::t_270b1f3b90865f 141,412
+  s_1d1cfb134026af::t_bfdcf573c8b740 63,139-140,142-144,352-366,378-382,918-919,942-960,976-980,991-1000,1003-1006
+crates/paimon/src/spec/read_type.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 87-89,92,170-171,179-180,183-184,208,213-216,223
+crates/paimon/src/arrow/shredding/variant.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 399,421,2341-2342,2359-2362,3100-3101,3125-3128
+crates/paimon/tests/fixtures/generated_column_schema.json
+  s_1d1cfb134026af::t_bfdcf573c8b740 1-15
+bindings/python/src/schema.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 96-124
 ---
 {
   "schema_version": "authorship/3.0.0",
