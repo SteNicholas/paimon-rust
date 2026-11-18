@@ -1,0 +1,65 @@
+crates/paimon/src/spec/schema.rs
+  s_4ed1ef0f6a0fc8::t_22b9ed39c3a6f5 676,736-737,1011,6805-6806,6809-6823
+  s_1d1cfb134026af::t_f0a0d32a51d1a8 3023-3042,3045-3059
+  s_1d1cfb134026af::t_363d42d3c5a637 675,1437,6786
+  s_1d1cfb134026af::t_15b08c0df4b55b 6918
+  s_1d1cfb134026af::t_6cff8919d53ec6 6829-6917
+  s_1d1cfb134026af::t_31218affa99a25 1288-1292,1303,1327-1334,1345-1349,1359-1363,2630,2635-2641,2643-2644,2702,2844-2873,2896-2951,4518-4522,4535-4536,6784-6785,6787-6790,6793,6800-6804,6807
+crates/paimon/src/spec/generated_column.rs
+  s_1d1cfb134026af::t_31218affa99a25 94-443
+  s_4ed1ef0f6a0fc8::t_5f76e21cb68ceb 1-24,26,82-93,444-499
+  s_1d1cfb134026af::t_363d42d3c5a637 25,27-81
+crates/paimon/src/table/data_evolution_fields.rs
+  s_4ed1ef0f6a0fc8::t_249727b6023eb9 201,262-266,268,276
+  s_1d1cfb134026af::t_31218affa99a25 277
+crates/paimon/src/table/mod.rs
+  s_1d1cfb134026af::t_363d42d3c5a637 236
+docs/src/getting-started.md
+  s_1d1cfb134026af::t_bd342c09c631ab 571-573
+  s_1d1cfb134026af::t_363d42d3c5a637 577-580
+  s_1d1cfb134026af::t_802a2506fe144c 574-576
+  s_1d1cfb134026af::t_aaa13e061e9cfa 581-583
+  s_1d1cfb134026af::t_69207e0fe0acb6 584-586
+  s_1d1cfb134026af::t_211e03713dade7 568-570
+  s_1d1cfb134026af::t_150d1f42450078 587
+crates/paimon/src/arrow/shredding/map.rs
+  s_1d1cfb134026af::t_1e8a27cab20c60 1235-1240,3037-3038,3055-3058,3143-3146,3178-3188
+  s_1d1cfb134026af::t_a109c2782bd20b 826,1158,1227-1234,3189-3192
+  s_1d1cfb134026af::t_31218affa99a25 3193-3196
+crates/paimon/src/table/kv_data_file_writer.rs
+  s_4ed1ef0f6a0fc8::t_8fd29d4da94e6d 611,615,628-631,655,657-658,660-662
+  s_1d1cfb134026af::t_31218affa99a25 632-654,656,659
+crates/paimon/src/table/format_table_defaults.rs
+  s_1d1cfb134026af::t_546e3b6cad5176 149
+  s_1d1cfb134026af::t_39b3c7ede6b7f5 51-52,59-60
+  s_1d1cfb134026af::t_363d42d3c5a637 55,115-148
+crates/paimon/src/catalog/filesystem.rs
+  s_4ed1ef0f6a0fc8::t_22f0267016815f 2270,2388-2414,2416-2417,2419-2429,2550-2578
+  s_1d1cfb134026af::t_31218affa99a25 2415,2418,2430-2549
+  s_1d1cfb134026af::t_6cff8919d53ec6 2271-2310,2315-2379,2384-2387
+  s_1d1cfb134026af::t_39b3c7ede6b7f5 2311-2314,2380-2383
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "dac93eca815c4b1048d0617d9e13eaf9efd40f20",
+  "prompts": {},
+  "sessions": {
+    "s_1d1cfb134026af": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ed32-4927-7a82-872a-147b6d7a9164",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    },
+    "s_4ed1ef0f6a0fc8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ecb5-ba2d-74e3-a15e-5e5dbbe4697a",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
