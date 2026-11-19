@@ -1,0 +1,27 @@
+crates/paimon/src/arrow/format/avro.rs
+  s_09fb9b00067900::t_d8139415a0654d 49
+  s_09fb9b00067900::t_305555a0b26b54 50-52
+benchmarks/avro/README.md
+  s_09fb9b00067900::t_d8139415a0654d 42-81
+  s_09fb9b00067900::t_ab1c2af63c1963 39-41
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  s_09fb9b00067900::t_d8139415a0654d 553-909
+  s_09fb9b00067900::t_78198effc0b6bb 550-552
+  s_09fb9b00067900::t_6e4d678b85aa5e 910-912
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a7f2a51abbe4a916d33b94dc616111fc994dafb1",
+  "prompts": {},
+  "sessions": {
+    "s_09fb9b00067900": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f332-d03b-74e2-8807-303530557b6e",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
