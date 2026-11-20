@@ -1,0 +1,86 @@
+crates/paimon/tests/data_evolution_bitmap_merge_test.rs
+  s_603ea5827d3c3f::t_264b98ebed1594 578-595,609-610
+  s_603ea5827d3c3f::t_36b96bde0ecd94 596-608
+crates/paimon/src/arrow/format/parquet.rs
+  s_603ea5827d3c3f::t_589364c9bd2c29 68,77,93,97-103,116-120,122-141,143,146,159-177,1084,1097-1102,1104-1106,1240-1241,2641-2644,6028,6056-6071,7501-7535
+  s_2f63dff191e70a::t_8c5041855f20ed 6087-6126
+  s_2f63dff191e70a::t_0bc31d6edf51af 115,142
+  s_603ea5827d3c3f::t_b193097c1faa89 121,144-145,147-158
+  s_603ea5827d3c3f::t_40b5fd2ff7640c 104-114
+docs/src/benchmark.md
+  s_603ea5827d3c3f::t_930fc7c69ee877 326-347
+  s_603ea5827d3c3f::t_9729d159bfb57d 319-325
+crates/paimon/src/table/data_evolution_reader.rs
+  s_603ea5827d3c3f::t_eea9f9511baf5a 24,26,2377,2383
+  s_603ea5827d3c3f::t_40b5fd2ff7640c 1212
+  s_603ea5827d3c3f::t_149988434187d6 19,42,51,114,144-148,151,561-562,565-570,663,732,781,792,806-808,817-818,827,829-853,859-862,866,877-885,887,1181-1211,1216,1222,1325,2066-2069,2077-2081,2384,2601,2782,2939,2970,8425,8439
+  s_603ea5827d3c3f::t_0294d8024735a9 300-303
+crates/paimon/src/table/data_evolution_reader/candidate_ranges.rs
+  s_603ea5827d3c3f::t_b193097c1faa89 21,54,106,110-111,126
+  s_2f63dff191e70a::t_0bc31d6edf51af 35-36,109
+  s_603ea5827d3c3f::t_22720acfe11d1b 1-20,22-34,213-215
+  s_603ea5827d3c3f::t_40b5fd2ff7640c 37-53,55-105,107-108,112-125,127-212
+docs/src/getting-started.md
+  s_603ea5827d3c3f::t_b9eca49a4c17e5 166-167,178-180,183
+  s_603ea5827d3c3f::t_0294d8024735a9 168-169,173-177
+  s_603ea5827d3c3f::t_d994e7677521d5 170-172
+  s_603ea5827d3c3f::t_930fc7c69ee877 181-182
+crates/paimon/src/table/data_evolution_reader/candidate_ranges_tests.rs
+  s_603ea5827d3c3f::t_65a6da18024adb 656-667
+  s_603ea5827d3c3f::t_44e9f9616bef9a 695-696
+  s_603ea5827d3c3f::t_3c41ee2dd8c890 719-720
+  s_603ea5827d3c3f::t_aa54d424e9cc1b 698-699
+  s_603ea5827d3c3f::t_77d95f69d9dbbb 438
+  s_603ea5827d3c3f::t_c662bfc5fb9105 701-716
+  s_603ea5827d3c3f::t_3b24bb38cf137e 439-441
+  s_603ea5827d3c3f::t_50b29611af2012 640-648
+  s_603ea5827d3c3f::t_d1a0ff908f0790 683-684
+  s_603ea5827d3c3f::t_edd5126a2e8f7c 536,538-540
+  s_603ea5827d3c3f::t_8cd646e7f27810 722-761
+  s_603ea5827d3c3f::t_534c1e19c068de 590-596
+  s_603ea5827d3c3f::t_4c856ae74c22bf 680-681
+  s_603ea5827d3c3f::t_2d585cfc82be1d 763-764
+  s_603ea5827d3c3f::t_47ac8e95e29a1a 26-321,332-388,397-434,437,442-444,446,454-464,500-503,505-511,513-532,534,571,597-621,633-639,649,655,674,679,682,685,694,697,700,717,762
+  s_2f63dff191e70a::t_59f2ccea48bafc 322-331,389-396,465-499,504,512,533,535,537,545
+  s_603ea5827d3c3f::t_aa042bead68f88 546-570
+  s_603ea5827d3c3f::t_17d4d68c5b9d32 23-25
+  s_603ea5827d3c3f::t_a32848b86ee9eb 445,450-453,541-544,574-589,622-632,668,718,721
+  s_603ea5827d3c3f::t_20346a4cb5bb58 447-449
+  s_603ea5827d3c3f::t_494560898b15c7 435-436
+  s_603ea5827d3c3f::t_e76308744ee365 650-654
+  s_603ea5827d3c3f::t_46be343003a6f9 675-678
+  s_603ea5827d3c3f::t_cd26d13c21a85d 1-22
+  s_603ea5827d3c3f::t_495d067c78f5a4 572-573
+  s_603ea5827d3c3f::t_6277858ba0e946 669-673
+  s_603ea5827d3c3f::t_1aa1dd698b713f 686-693
+crates/paimon/src/table/data_file_reader.rs
+  s_603ea5827d3c3f::t_eea9f9511baf5a 33,1538-1541,1546-1550,1659,2844-2849
+  s_2f63dff191e70a::t_0bc31d6edf51af 178
+  s_603ea5827d3c3f::t_f26235a7e2abc4 42,61-64,111-134,147-154,176-177,179-192,473,556,566,568,577,589-593,619,629,631-635,767-789,837,891-894,1533,2881
+crates/paimon/src/predicate_stats.rs
+  s_603ea5827d3c3f::t_b193097c1faa89 555
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "004183bb59b3f261c9c78e15f1619826aaef935f",
+  "prompts": {},
+  "sessions": {
+    "s_2f63dff191e70a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f75c-c3b7-7873-a00f-24562e9498e5",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    },
+    "s_603ea5827d3c3f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f748-b2c9-7851-b8bd-ec8650d4b698",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    }
+  }
+}
