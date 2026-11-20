@@ -1,0 +1,46 @@
+crates/paimon/src/table/data_evolution_reader/candidate_ranges_tests.rs
+  s_603ea5827d3c3f::t_3b24bb38cf137e 421-423
+  s_603ea5827d3c3f::t_47ac8e95e29a1a 26-416,419,424-426,428,436-493,503,529,555-579,591-597,607,613,632,637,640,643,652,655,658,675,720
+  s_603ea5827d3c3f::t_a32848b86ee9eb 427,432-435,499-502,532-547,580-590,626,676,679
+  s_603ea5827d3c3f::t_17d4d68c5b9d32 23-25
+  s_603ea5827d3c3f::t_494560898b15c7 417-418
+  s_603ea5827d3c3f::t_77d95f69d9dbbb 420
+  s_603ea5827d3c3f::t_20346a4cb5bb58 429-431
+  s_603ea5827d3c3f::t_edd5126a2e8f7c 494-498
+  s_603ea5827d3c3f::t_aa042bead68f88 504-506,526-528
+  s_603ea5827d3c3f::t_495d067c78f5a4 530-531
+  s_603ea5827d3c3f::t_534c1e19c068de 548-550,552-554
+  s_603ea5827d3c3f::t_50b29611af2012 598-600,604-606
+  s_603ea5827d3c3f::t_e76308744ee365 608-612
+  s_603ea5827d3c3f::t_65a6da18024adb 614-616,623-625
+  s_603ea5827d3c3f::t_6277858ba0e946 627-631
+  s_603ea5827d3c3f::t_46be343003a6f9 633-636
+  s_603ea5827d3c3f::t_4c856ae74c22bf 638-639
+  s_603ea5827d3c3f::t_d1a0ff908f0790 641-642
+  s_603ea5827d3c3f::t_1aa1dd698b713f 644-646,649-651
+  s_603ea5827d3c3f::t_44e9f9616bef9a 653-654
+  s_603ea5827d3c3f::t_aa54d424e9cc1b 656-657
+  s_603ea5827d3c3f::t_c662bfc5fb9105 659-661,672-674
+  s_603ea5827d3c3f::t_3c41ee2dd8c890 677-678
+  s_603ea5827d3c3f::t_8cd646e7f27810 680-682,717-719
+  s_603ea5827d3c3f::t_2d585cfc82be1d 721-722
+crates/paimon/tests/data_evolution_bitmap_merge_test.rs
+  s_603ea5827d3c3f::t_36b96bde0ecd94 596-608
+  s_603ea5827d3c3f::t_264b98ebed1594 578-595,609-610
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6536a4aac1773bf50a71c2b65a974221f503724a",
+  "prompts": {},
+  "sessions": {
+    "s_603ea5827d3c3f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f748-b2c9-7851-b8bd-ec8650d4b698",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
