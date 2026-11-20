@@ -316,3 +316,34 @@ The optimization is selected automatically for FAST-mode global searches with
 disjoint index ranges and no raw sources or deletion exclusions. Other paths and boundary ties retain
 exhaustive evaluation. The benchmark uses an internal reference reader to compare
 against exhaustive candidate collection without adding a table option.
+
+## Data Evolution merged Parquet reads
+
+Run the selective and full-range filters over the same 262,144 logical rows
+with merged-read statistics pushdown enabled and disabled.
+
+```bash
+cargo +1.98.0 test --locked -p paimon --lib benchmark_merged_candidates -- --ignored --nocapture
+```
+
+The fixture uses in-memory files, different page and row-group boundaries for
+the two current column providers, and a disabled shared metadata cache. The
+benchmark counts rows returned by the Parquet readers to the merge and bytes
+requested for column data. Total bytes also include the footer and index
+prefetch. Scan times are medians of seven runs with alternating execution order.
+
+One run on an Apple M4 Pro with Rust 1.98.0 in the default test profile
+produced the following results. The selective filter returned one row in both
+modes. The full-range filter returned all 262,144 rows.
+
+| Filter | Pushdown | Rows returned to merge | Data bytes | Total bytes | Median scan time |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Selective | Off | 524,288 | 2,342,012 | 3,390,588 | 61.8 ms |
+| Selective | On | 128 | 756 | 1,049,332 | 13.0 ms |
+| Full range | Off | 524,288 | 2,342,012 | 3,390,588 | 74.7 ms |
+| Full range | On | 524,288 | 2,342,012 | 3,390,588 | 78.0 ms |
+
+Each current provider required one footer fetch per scan. The median full-range
+scan took 4.4% longer with pushdown enabled in this run. The counting-I/O test
+also checks that planning and decoding share a single index fetch when the
+page index falls outside the 512 KiB footer prefetch.
