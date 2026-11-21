@@ -1,0 +1,44 @@
+crates/integrations/datafusion/src/sql_context/ctas.rs
+  s_2a8a78e8dda5c9::t_2e467649765765 112
+  s_2a8a78e8dda5c9::t_4856901164488b 1-111,113-281
+crates/paimon/src/io/file_io.rs
+  s_2a8a78e8dda5c9::t_e8f2239231a6d5 121-126,961-972,1019
+  s_2a8a78e8dda5c9::t_895a5e1a95622f 883-886,983,1020-1024
+  s_2a8a78e8dda5c9::t_8d69b7d4d004ff 1028-1030,1061,1068
+crates/integrations/datafusion/tests/create_table_as/execution.rs
+  s_2a8a78e8dda5c9::t_2e467649765765 68,98,123,164,189,197,200,203,235,238,245-257,261,269,277,301,313,343,349,352,374,443,483,521,583,597,616
+  s_2a8a78e8dda5c9::t_314959178bd5f2 1-67,69-97,99-122,124-163,165-188,190-196,198-199,201-202,204-234,236-237,239-244,258-260,262-268,270-276,278-300,302-312,314-342,344-348,350-351,353-373,375-442,444-482,484-520,522-582,584-596,598-615,617-715
+docs/src/sql.md
+  s_2a8a78e8dda5c9::t_2e467649765765 962-964
+  s_2a8a78e8dda5c9::t_6500ff5ce215d9 958-961
+  s_2a8a78e8dda5c9::t_57390dd4e7016e 46,916-957,965-973
+crates/paimon/src/catalog/filesystem.rs
+  s_2a8a78e8dda5c9::t_719be81a081927 497-503,506-510,1812-1815,1833-1840,1845-1852,1858-1860,1862-1865
+  s_2a8a78e8dda5c9::t_dcb8b9d1b6969a 1794-1795,1797-1811,1816-1832,1841-1844,1853-1854,1867-1869,1935
+  s_2a8a78e8dda5c9::t_289c10c6ff6eed 29,50-58,271-323,494,504,511-512,1875,1884,1893-1894,1902,1934
+  s_2a8a78e8dda5c9::t_8c60cc0323432a 1796,1855-1857,1861,1866,1917,1920-1933
+  s_2a8a78e8dda5c9::t_5843bb630d5876 1870-1874,1876-1883,1885-1892,1895-1901,1903-1916,1918-1919,1936
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  s_2a8a78e8dda5c9::t_e8f2239231a6d5 365-367
+  s_2a8a78e8dda5c9::t_719be81a081927 360-364
+crates/paimon/src/catalog/mod.rs
+  s_2a8a78e8dda5c9::t_6500ff5ce215d9 484-485
+  s_2a8a78e8dda5c9::t_e8f2239231a6d5 486-487,493-497
+  s_2a8a78e8dda5c9::t_719be81a081927 488-492
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "16b7933c506ce8d1ea594060fd64962a85df72a8",
+  "prompts": {},
+  "sessions": {
+    "s_2a8a78e8dda5c9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1fec8-31c2-7731-a084-b2aff41bbc20",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
