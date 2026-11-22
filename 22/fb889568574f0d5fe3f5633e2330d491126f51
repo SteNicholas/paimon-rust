@@ -1,0 +1,65 @@
+crates/paimon/src/spec/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 59
+docs/src/getting-started.md
+  s_8e98f938f4b819::t_445687e6672286 543-587
+crates/paimon/src/table/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 237
+crates/paimon/src/arrow/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 63,139-144,352-366,378-382,412,918-919,925-938,942-1006
+crates/paimon/src/spec/map_selected_keys.rs
+  s_8e98f938f4b819::t_445687e6672286 107-109,112-116
+crates/paimon/src/table/data_evolution_fields.rs
+  s_8e98f938f4b819::t_445687e6672286 201,262-266,268,276-277
+crates/paimon/src/spec/generated_column.rs
+  s_8e98f938f4b819::t_445687e6672286 1-499
+crates/paimon/src/arrow/shredding/map.rs
+  s_8e98f938f4b819::t_445687e6672286 826,1158,1227-1240,3037-3038,3055-3058,3143-3146,3178-3196
+bindings/python/python/pypaimon_rust/datafusion.pyi
+  s_8e98f938f4b819::t_445687e6672286 39
+crates/paimon/src/spec/schema.rs
+  s_8e98f938f4b819::t_445687e6672286 729-730,790-791,1065,1342-1346,1357,1381-1388,1399-1403,1413-1417,1491,2691,2696-2702,2704-2705,2763,3072-3101,3124-3179,3251-3270,3273-3287,4746-4750,4763-4764,7012-7018,7021,7028-7035,7037-7051,7057-7145
+  s_8e98f938f4b819::t_ae41e67a5049bb 7146
+crates/integrations/datafusion/tests/variant_pushdown.rs
+  s_8e98f938f4b819::t_445687e6672286 22-24,28-37,39-50,118-133
+  s_8e98f938f4b819::t_9669ab3cb04885 134
+crates/paimon/src/table/data_file_reader.rs
+  s_8e98f938f4b819::t_445687e6672286 1289-1292,1343,1934-1936,1956-1960,1992-1993,2008-2011
+bindings/python/src/schema.rs
+  s_8e98f938f4b819::t_445687e6672286 96-124
+crates/paimon/tests/fixtures/generated_column_schema.json
+  s_8e98f938f4b819::t_445687e6672286 1-15
+crates/paimon/src/arrow/shredding/variant.rs
+  s_8e98f938f4b819::t_445687e6672286 399,421,2341-2342,2359-2362,3100-3101,3125-3128
+crates/paimon/src/spec/read_type.rs
+  s_8e98f938f4b819::t_445687e6672286 87-89,92,170-171,179-180,183-184,208,213-216,223
+crates/paimon/src/variant.rs
+  s_8e98f938f4b819::t_445687e6672286 2566
+crates/paimon/src/catalog/filesystem.rs
+  s_8e98f938f4b819::t_f2a9eb430fdcba 2376
+  s_8e98f938f4b819::t_445687e6672286 2377-2683
+  s_8e98f938f4b819::t_0279f7fea0242c 2684
+crates/paimon/src/table/format_table_defaults.rs
+  s_8e98f938f4b819::t_445687e6672286 51-52,55,59-60,115-148
+  s_8e98f938f4b819::t_a49dac061f364e 149
+crates/integrations/datafusion/src/variant_pushdown.rs
+  s_8e98f938f4b819::t_445687e6672286 359
+crates/paimon/src/table/kv_data_file_writer.rs
+  s_8e98f938f4b819::t_445687e6672286 611,615,628-661
+  s_8e98f938f4b819::t_67432576a67f61 662
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "22fb889568574f0d5fe3f5633e2330d491126f51",
+  "prompts": {},
+  "sessions": {
+    "s_8e98f938f4b819": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a200fe-7304-7150-aa86-ee271e9ba68d",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
