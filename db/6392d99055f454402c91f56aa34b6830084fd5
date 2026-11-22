@@ -1,0 +1,74 @@
+crates/integrations/datafusion/tests/create_table_as/execution.rs
+  h_c2741d62aa4e6d 1-726
+crates/integration_tests/Cargo.toml
+  h_c2741d62aa4e6d 41
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  h_c2741d62aa4e6d 32,282-287,360,366-373,938-963,1501,1534,1542-1560
+crates/integrations/datafusion/tests/read_files_behavior.rs
+  h_c2741d62aa4e6d 294-302
+crates/paimon/src/catalog/filesystem.rs
+  h_c2741d62aa4e6d 29,50-58,271-324,437-447,506,509-516,518-524,911-914,921-924,928-954,1837-2035
+crates/paimon/src/io/file_io.rs
+  h_c2741d62aa4e6d 121-128,885-888,918-936,939-941,980-989,1000,1011-1024,1029-1030,1044-1049,1053-1055,1086,1093
+Cargo.lock
+  h_c2741d62aa4e6d 5084
+crates/integrations/datafusion/src/physical_plan/mod.rs
+  h_c2741d62aa4e6d 24-32,37-118
+crates/integrations/datafusion/src/relation_planner.rs
+  h_c2741d62aa4e6d 42-66,92,131,169,174,271
+crates/paimon/src/table/data_file_writer.rs
+  h_c2741d62aa4e6d 576-578,590-592
+crates/paimon/src/table/rest_env.rs
+  h_c2741d62aa4e6d 22,24-25,334
+crates/paimon/tests/rest_catalog_test.rs
+  h_c2741d62aa4e6d 1927-1950,1952-1956
+crates/integrations/datafusion/README.md
+  h_c2741d62aa4e6d 152-168
+crates/paimon/src/table/table_commit.rs
+  h_c2741d62aa4e6d 1102-1104
+crates/integrations/datafusion/src/format_partition_analyze.rs
+  h_c2741d62aa4e6d 60
+crates/integrations/datafusion/src/sql_context.rs
+  h_c2741d62aa4e6d 31,59,83,99-100,497-507,533-563,568-576,964-972,974-977,979-986,988-994,996,998,1000,1002-1004,1006-1007,1010-1018,1026,1029,1059,1061-1062,1089-1093,1119,1121-1122,1124-1134,1155-1161,1611,2733,2768-2845,3094,3137-3149,3273-3301,3307-3330,3332-3334,3339-3347,3349,3351,3354-3355,3360-3361,3363-3370,3372-3377,3379-3380,3382-3384,3386-3388,3391-3398,3400-3410,3796,3802,3809-3816,4240-4243,4246,4249,4252-4256,4258-4278,4280-4283,4285-4286,4288-4295,4297-4317,4319-4320,4323-4339,4341,4344-4350,4353-4358,8381,9237-9248,9252-9264,9283-9295,9299-9302,9307-9323,9325-9333,10357-10392,10396-10404,10406-10410,10415-10432
+crates/integrations/datafusion/src/procedures/compat.rs
+  h_c2741d62aa4e6d 61
+crates/integrations/datafusion/src/format_partition_repair.rs
+  h_c2741d62aa4e6d 39
+crates/integrations/datafusion/src/sql_context/ctas.rs
+  h_c2741d62aa4e6d 1-285
+docs/src/sql.md
+  h_c2741d62aa4e6d 46,916-983
+crates/paimon/src/catalog/mod.rs
+  h_c2741d62aa4e6d 418-435,502-514
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_1949e18d7ca17b::t_895bec16cb6c7a 907-910
+  h_c2741d62aa4e6d 1-710,713-729,734-752,761-898,905-906,911-919,928-946
+  s_1949e18d7ca17b::t_ed5c5a207ef200 711-712,730-733,753-760,899-904,920-927
+crates/paimon/tests/mock_server.rs
+  h_c2741d62aa4e6d 39-46,224,237,259,788-791,795,820,822,825,827-828
+crates/integrations/datafusion/src/format_partition_ddl.rs
+  h_c2741d62aa4e6d 115
+crates/integrations/datafusion/src/physical_plan/scan.rs
+  h_c2741d62aa4e6d 21,25,1101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "db6392d99055f454402c91f56aa34b6830084fd5",
+  "prompts": {},
+  "humans": {
+    "h_c2741d62aa4e6d": {
+      "author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  },
+  "sessions": {
+    "s_1949e18d7ca17b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20179-54fe-70e3-8b02-11f57b3f42e3",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    }
+  }
+}
