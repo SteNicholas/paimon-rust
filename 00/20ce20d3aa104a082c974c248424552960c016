@@ -1,0 +1,40 @@
+crates/paimon/src/catalog/filesystem.rs
+  s_1949e18d7ca17b::t_d6d7f2cb7026f5 437-447
+crates/paimon/src/catalog/mod.rs
+  s_1949e18d7ca17b::t_03960e879e0ee6 419-423
+  s_1949e18d7ca17b::t_d6d7f2cb7026f5 418,424-435
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_1949e18d7ca17b::t_7f0b121680edc4 733-755
+  s_1949e18d7ca17b::t_719d80e4087de6 705-710,878-892
+  s_9d1faec9dc2255::t_a06f5fc9e69133 732
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  s_1949e18d7ca17b::t_d6d7f2cb7026f5 282-287
+crates/integrations/datafusion/src/sql_context/ctas.rs
+  s_1949e18d7ca17b::t_d6d7f2cb7026f5 62-64
+crates/integrations/datafusion/tests/create_table_as/execution.rs
+  s_1949e18d7ca17b::t_d6d7f2cb7026f5 210,221-223
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0020ce20d3aa104a082c974c248424552960c016",
+  "prompts": {},
+  "sessions": {
+    "s_1949e18d7ca17b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20179-54fe-70e3-8b02-11f57b3f42e3",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    },
+    "s_9d1faec9dc2255": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20122-3b29-7692-8d29-01ac1f629bac",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
