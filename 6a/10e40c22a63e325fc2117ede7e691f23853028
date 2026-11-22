@@ -1,0 +1,86 @@
+crates/paimon/src/spec/generated_column.rs
+  s_8e98f938f4b819::t_b7c99c41ab845b 25,27-44
+  s_8e98f938f4b819::t_445687e6672286 1-24,26,45-517
+crates/paimon/tests/fixtures/generated_column_schema.json
+  s_8e98f938f4b819::t_445687e6672286 1-15
+crates/paimon/src/table/kv_data_file_writer.rs
+  s_8e98f938f4b819::t_67432576a67f61 662
+  s_8e98f938f4b819::t_445687e6672286 611,615,628-661
+crates/paimon/src/arrow/shredding/variant.rs
+  s_8e98f938f4b819::t_445687e6672286 399,421,2341-2342,2359-2362,3100-3101,3125-3128
+crates/paimon/src/variant.rs
+  s_8e98f938f4b819::t_445687e6672286 2566
+crates/paimon/src/table/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 237
+crates/integrations/datafusion/src/variant_pushdown.rs
+  s_8e98f938f4b819::t_445687e6672286 359
+crates/paimon/tests/rest_catalog_test.rs
+  s_8e98f938f4b819::t_fa1dcce66c6ef0 1975-1976,1979-1987,1992-1994,1998-2000
+  s_8e98f938f4b819::t_93cb1f1b8e81d2 1977-1978,1988-1991,1995-1997
+  s_8e98f938f4b819::t_276d985181d84d 1974
+crates/paimon/src/arrow/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 63,139-144,352-366,378-382,412,918-919,925-938,942-1006
+crates/paimon/src/arrow/shredding/map.rs
+  s_8e98f938f4b819::t_445687e6672286 826,1158,1227-1240,3037-3038,3055-3058,3143-3146,3178-3196
+crates/paimon/src/table/data_evolution_fields.rs
+  s_8e98f938f4b819::t_445687e6672286 201,262-266,268,276-277
+crates/paimon/src/spec/read_type.rs
+  s_8e98f938f4b819::t_445687e6672286 87-89,92,170-171,179-180,183-184,208,213-216,223
+bindings/python/src/schema.rs
+  s_8e98f938f4b819::t_445687e6672286 96-124
+crates/paimon/src/spec/map_selected_keys.rs
+  s_8e98f938f4b819::t_445687e6672286 107-109,112-116
+crates/integrations/datafusion/tests/variant_pushdown.rs
+  s_8e98f938f4b819::t_9669ab3cb04885 136
+  s_8e98f938f4b819::t_3a1f08f4823504 22,45-49,51
+  s_8e98f938f4b819::t_445687e6672286 23,27-36,38-44,52,120-135
+crates/paimon/src/table/format_table_defaults.rs
+  s_8e98f938f4b819::t_445687e6672286 51-52,55,59-60,115-148
+  s_8e98f938f4b819::t_a49dac061f364e 149
+crates/paimon/src/spec/schema.rs
+  s_8e98f938f4b819::t_968ae3de7a758d 2701,7138-7140
+  s_8e98f938f4b819::t_fa1dcce66c6ef0 7141-7144
+  s_8e98f938f4b819::t_445687e6672286 729-730,790-791,1065,1342-1346,1357,1381-1388,1399-1403,1413-1417,1491,2691,2696-2700,2702-2703,2705-2706,2764,3073-3102,3125-3180,3252-3271,3274-3288,4747-4751,4764-4765,7013-7019,7022,7029-7036,7038,7042-7137,7145-7152
+docs/src/getting-started.md
+  s_8e98f938f4b819::t_b13325ceee779b 563-566,579
+  s_8e98f938f4b819::t_445687e6672286 543-562,567-578,580-590
+crates/paimon/src/catalog/filesystem.rs
+  s_8e98f938f4b819::t_445687e6672286 2379-2434,2436,2475-2506,2516-2579,2592-2730
+  s_8e98f938f4b819::t_1794a3bd14ef7f 440,448-452,471
+  s_8e98f938f4b819::t_f2a9eb430fdcba 2378
+  s_8e98f938f4b819::t_332472c1188998 2443-2470
+  s_8e98f938f4b819::t_0279f7fea0242c 2731
+  s_8e98f938f4b819::t_21338d4720917e 2507-2508,2513-2515,2584-2586,2591
+  s_8e98f938f4b819::t_4d0a0404a2d4fa 2437-2438,2471-2474
+  s_8e98f938f4b819::t_b7c99c41ab845b 469
+  s_8e98f938f4b819::t_93cb1f1b8e81d2 2439-2442,2509-2512,2580-2583,2587-2590
+  s_8e98f938f4b819::t_58d988ce6a0f92 2435
+crates/paimon/src/spec/mod.rs
+  s_8e98f938f4b819::t_445687e6672286 59
+bindings/python/python/pypaimon_rust/datafusion.pyi
+  s_8e98f938f4b819::t_445687e6672286 39
+crates/paimon/src/api/rest_api.rs
+  s_8e98f938f4b819::t_b7c99c41ab845b 380
+crates/paimon/src/table/data_file_reader.rs
+  s_8e98f938f4b819::t_445687e6672286 1289-1292,1343,1934-1936,1956-1960,1992-1993,2008-2011
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  s_8e98f938f4b819::t_b13325ceee779b 350-351,353-356,363-366
+  s_8e98f938f4b819::t_968ae3de7a758d 352
+  s_8e98f938f4b819::t_93cb1f1b8e81d2 357-362
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6a10e40c22a63e325fc2117ede7e691f23853028",
+  "prompts": {},
+  "sessions": {
+    "s_8e98f938f4b819": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a200fe-7304-7150-aa86-ee271e9ba68d",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": null
+    }
+  }
+}
