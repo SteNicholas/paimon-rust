@@ -1,0 +1,47 @@
+crates/paimon/src/arrow/format/avro.rs
+  s_6132e71b148196::t_321b910fecada3 262-264
+  s_6132e71b148196::t_ddbe28556cdae5 96-102,129-130,132-133
+  s_9c85dea82e9c96::t_d3d9d19322c6e3 40,43,55,88,174,179-180,182-183,191,199-201,203-219,261,265-266,359,369,387
+  s_6132e71b148196::t_f2fe37dd85eb0c 37,41,44-46,89-91,93,103-124,126-128,135-155,157,160,171-172,181,267-269
+  s_6132e71b148196::t_29f7617b72428a 383-384
+  s_9c85dea82e9c96::t_8592392385cb89 82,87,125,195,202
+crates/paimon/Cargo.toml
+  s_6132e71b148196::t_f2fe37dd85eb0c 142
+benchmarks/avro/README.md
+  s_6132e71b148196::t_5059b27c632cca 51-52
+  s_6132e71b148196::t_ee6a64043578c0 83-85
+  s_6132e71b148196::t_ddbe28556cdae5 47-48,71-74
+  s_9c85dea82e9c96::t_531793f06c5d40 22-27,31,36-38,42,49-50,53-70,75-82
+crates/paimon/src/arrow/format/avro/streaming_tests.rs
+  s_9c85dea82e9c96::t_28692711ff6290 344
+  s_6132e71b148196::t_6ef646162b35e6 536-537,539,550
+  s_9c85dea82e9c96::t_8592392385cb89 269-284,290-343,345-346,917
+  s_6132e71b148196::t_ddbe28556cdae5 285-289,840-844,846
+  s_6132e71b148196::t_ebe2ffcd926269 268
+Cargo.lock
+  s_6132e71b148196::t_c2b9d9d1948fc0 7522
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "faa0ce9ae7bcfbe8973dab2759ef79cf5af07dd7",
+  "prompts": {},
+  "sessions": {
+    "s_6132e71b148196": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1eeca-bd1c-7041-b412-f66344c10b30",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    },
+    "s_9c85dea82e9c96": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1eeba-6f6e-7231-8077-9dba65faa04a",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
