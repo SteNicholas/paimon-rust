@@ -1,0 +1,27 @@
+crates/integrations/datafusion/tests/variant_pushdown.rs
+  s_1d1cfb134026af::t_bfdcf573c8b740 36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "589e77431f666727369e3c89b2944dc42d5bbe08",
+  "prompts": {},
+  "sessions": {
+    "s_1d1cfb134026af": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ed32-4927-7a82-872a-147b6d7a9164",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    },
+    "s_4ed1ef0f6a0fc8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ecb5-ba2d-74e3-a15e-5e5dbbe4697a",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
