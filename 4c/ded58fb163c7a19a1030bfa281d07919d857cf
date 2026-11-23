@@ -1,0 +1,30 @@
+crates/paimon/src/catalog/filesystem.rs
+  s_15cc0a19cd1cbd::t_f57f4c2534ea81 2456
+  s_15cc0a19cd1cbd::t_a8db33793c1460 2477,2485,2498-2499
+crates/paimon/src/table/format_table_defaults.rs
+  s_15cc0a19cd1cbd::t_f57f4c2534ea81 111,116-117,122-132,888,893,996,1005-1009,1112
+  s_15cc0a19cd1cbd::t_78268ebe5d8408 118-121
+  s_15cc0a19cd1cbd::t_9506d8551f0617 881-884,889,894,897-911
+crates/paimon/tests/rest_catalog_test.rs
+  s_15cc0a19cd1cbd::t_f57f4c2534ea81 1976-1977
+crates/paimon/src/spec/schema.rs
+  s_15cc0a19cd1cbd::t_f57f4c2534ea81 733-736,1477,1488
+docs/src/getting-started.md
+  s_15cc0a19cd1cbd::t_78268ebe5d8408 581-589
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4cded58fb163c7a19a1030bfa281d07919d857cf",
+  "prompts": {},
+  "sessions": {
+    "s_15cc0a19cd1cbd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20738-fdd7-73a0-8348-c115e60d85e2",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": null
+    }
+  }
+}
