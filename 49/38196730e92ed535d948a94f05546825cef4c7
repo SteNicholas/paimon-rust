@@ -1,0 +1,96 @@
+crates/paimon/src/table/rest_env.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 22,24-25,334
+crates/integrations/datafusion/src/format_partition_ddl.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 115
+crates/integrations/datafusion/src/physical_plan/mod.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 24-32,37-118
+crates/integrations/datafusion/src/procedures/compat.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 61
+crates/integrations/datafusion/README.md
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 152-168
+crates/paimon/src/io/storage_oss.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 143
+crates/paimon/src/catalog/filesystem.rs
+  s_caf55eed2ab42b::t_a5bab253c4e451 277,282,286-290,306,312
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 29,50-58,271-276,278-281,283-285,291-305,307-311,313-327,440-450,512-519,521-527,914-917,924-927,931-957,1840-2037
+  s_caf55eed2ab42b::t_eb5238edca6ad1 2038
+crates/paimon/src/table/table_commit.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 1102-1104
+crates/integrations/datafusion/src/read_files/mod.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 53
+crates/paimon/tests/rest_catalog_test.rs
+  s_caf55eed2ab42b::t_a5bab253c4e451 1959
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 1930-1953,1955-1958
+crates/integrations/datafusion/src/sql_context/ctas.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 1-287
+crates/paimon/src/io/file_io.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 22,97-98,124-137,143-150,907-910,940-958,961-963,1002-1011,1022,1041,1043-1061,1063-1065,1075-1085,1087,1089-1091,1094,1098-1125,1139,1146
+  s_caf55eed2ab42b::t_3e1d92d6d518df 138-142,1026-1036,1126,1128,1135-1136,1150-1156,1160-1161,1178-1179,1181-1183,1185-1188,4661-4670,4675-4686,4695-4710,4714-4730,4732
+  s_caf55eed2ab42b::t_3b07d3fb9eec33 1157-1159,1162,1180,1184,4671-4674,4687-4694,4711-4713
+  s_6e762a878fa136::t_09d5954d61c3ec 1127,4731,4733
+crates/paimon/src/table/data_file_writer.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 576-578,590-592
+crates/paimon/src/io/storage_s3.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 185,553-634
+  s_caf55eed2ab42b::t_ce4ce196ff9f82 635-636
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 32,282-287,379,385-392,957-982,1520,1553,1561-1579
+crates/paimon/src/io/file_io/fuse.rs
+  s_caf55eed2ab42b::t_3e1d92d6d518df 46-53
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 1-974
+crates/integrations/datafusion/src/read_files/projection.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 48-58,63,67,90,93,113,117-129
+  s_caf55eed2ab42b::t_6d5263f2270cb3 130
+crates/paimon/tests/mock_server.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 39-46,224,237,259,788-791,795,820,822,825,827-828
+crates/integrations/datafusion/tests/create_table_as/execution.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 1-726
+crates/integrations/datafusion/src/sql_context.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 31,59,75-78,83,99-100,497-508,534-574,579-587,975-983,985-988,990-997,999-1005,1007,1009,1011,1013-1015,1017-1018,1021-1033,1041,1044,1074,1076-1077,1104-1108,1134,1136-1137,1139-1149,1170-1176,1625,2750,2785-2849,3098,3141-3153,3277-3294,3296-3309,3315-3336,3338-3340,3345-3353,3355,3357,3360-3361,3366-3367,3369-3376,3378-3383,3385-3386,3388-3390,3392-3394,3397-3404,3406-3416,3815-3816,3821-3826,3831-3838,4262-4265,4268,4271,4274-4278,4280-4300,4302-4305,4307-4308,4310-4317,4319-4339,4341-4342,4345-4361,4363,4366-4372,4375-4380,8413,8549,8552-8580,8582-8599,9274-9285,9289-9301,9320-9332,9336-9339,9344-9360,9362-9370,9376,9378-9396,9404,10407-10442,10446-10454,10456-10460,10465-10482
+crates/paimon/src/catalog/mod.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 418-428,495-508
+  s_caf55eed2ab42b::t_c4b872b7545428 509
+crates/integrations/datafusion/src/physical_plan/scan.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 21,25,1101
+crates/integrations/datafusion/src/format_partition_analyze.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 60
+crates/integrations/datafusion/src/relation_planner.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 20,22,34-35,44-445,471,510,548,553,650
+docs/src/sql.md
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 46,916-988
+crates/integration_tests/Cargo.toml
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 41
+crates/integrations/datafusion/tests/time_travel_schema_tests.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 194-301
+crates/integrations/datafusion/src/format_partition_repair.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 39
+crates/integrations/datafusion/tests/read_files_behavior.rs
+  s_caf55eed2ab42b::t_6cfede2c5de9fd 294-302
+Cargo.lock
+  s_caf55eed2ab42b::t_c24c1763f2f270 5077
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4938196730e92ed535d948a94f05546825cef4c7",
+  "prompts": {},
+  "sessions": {
+    "s_6e762a878fa136": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a206e9-0760-7fb1-82fa-5f9e49ba4523",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    },
+    "s_caf55eed2ab42b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a207b8-cb38-7b40-9ce4-68464bc51d93",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": null
+    }
+  }
+}
