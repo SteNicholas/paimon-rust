@@ -1,0 +1,39 @@
+crates/paimon/src/io/mod.rs
+  s_589210210a3aa1::t_6e8ad5e2d6d6f5 38-46
+crates/paimon/src/io/file_io.rs
+  s_589210210a3aa1::t_8bb25dfbbd4fa3 2165-2173
+  s_589210210a3aa1::t_a125b51593d2bd 1056,1062-1064,1071-1073,1076-1085,1107,1129-1133,4676,4718
+  s_589210210a3aa1::t_1ac86ee532ebd6 2164
+  s_589210210a3aa1::t_6da79cbc32fae5 1074-1075,1128
+crates/paimon/src/io/storage_s3.rs
+  s_589210210a3aa1::t_0d62b0d2b038cf 662,673-683
+  s_589210210a3aa1::t_511df502c827c5 736-740
+  s_589210210a3aa1::t_e830e9c93d2622 213-214,660
+  s_589210210a3aa1::t_6da79cbc32fae5 684-685,741-744
+  s_589210210a3aa1::t_a125b51593d2bd 21,31,195-198,203-212
+  s_589210210a3aa1::t_6eeda4c53c551a 661,663-672,686-735,745-768
+  s_589210210a3aa1::t_6e8ad5e2d6d6f5 22,194,199-202
+crates/integrations/datafusion/tests/time_travel_schema_tests.rs
+  s_589210210a3aa1::t_bd3275be27d375 251-259
+crates/integrations/datafusion/src/relation_planner.rs
+  s_589210210a3aa1::t_a125b51593d2bd 210,228-233,248-250
+  s_589210210a3aa1::t_6e8ad5e2d6d6f5 224-227
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_589210210a3aa1::t_da143cf168cb7d 501-510
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "41dfd98151dc62fcce5ef0f02cc1e07934ff79d6",
+  "prompts": {},
+  "sessions": {
+    "s_589210210a3aa1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20870-71c9-7d00-84a6-cee630bd4687",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": null
+    }
+  }
+}
