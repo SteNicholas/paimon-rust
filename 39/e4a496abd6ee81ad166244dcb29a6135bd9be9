@@ -1,0 +1,22 @@
+crates/integrations/datafusion/src/relation_planner.rs
+  s_4d09790792346f::t_b48ceec2be150d 55,64,78-82,183-185,190,233,248,269,277-278,280,292,294-295,300-306,321,342,398,486-499,538-543
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_4d09790792346f::t_c9de9f58201b9a 573-602
+  s_4d09790792346f::t_0aae529da7d229 572
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "39e4a496abd6ee81ad166244dcb29a6135bd9be9",
+  "prompts": {},
+  "sessions": {
+    "s_4d09790792346f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20bb0-e83f-7d71-9b21-862a5020e1c0",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
