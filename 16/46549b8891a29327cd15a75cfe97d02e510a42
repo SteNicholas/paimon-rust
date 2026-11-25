@@ -1,0 +1,25 @@
+crates/paimon/src/table/data_evolution_reader/candidate_ranges_tests.rs
+  s_4d09790792346f::t_dfa079305f9f3c 1098-1099
+  s_4d09790792346f::t_fff3e768fe4403 536-546,549,551-553
+  s_4d09790792346f::t_835be42c226dbd 404,520-531
+  s_4d09790792346f::t_57b7abe6e0d178 532-535
+crates/paimon/src/arrow/format/parquet.rs
+  s_4d09790792346f::t_dfa079305f9f3c 174-176
+  s_4d09790792346f::t_835be42c226dbd 164-165,169-173,177,179,186
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1646549b8891a29327cd15a75cfe97d02e510a42",
+  "prompts": {},
+  "sessions": {
+    "s_4d09790792346f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20bb0-e83f-7d71-9b21-862a5020e1c0",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
