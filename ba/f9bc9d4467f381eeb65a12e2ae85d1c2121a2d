@@ -1,0 +1,19 @@
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_e5bc9aa80a4455::t_7a8018f3938c45 179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "baf9bc9d4467f381eeb65a12e2ae85d1c2121a2d",
+  "prompts": {},
+  "sessions": {
+    "s_e5bc9aa80a4455": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a2112d-c7cd-70a3-ba4d-9087d58a182a",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
