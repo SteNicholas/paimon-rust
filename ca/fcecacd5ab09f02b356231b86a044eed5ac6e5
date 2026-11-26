@@ -1,0 +1,94 @@
+crates/integrations/datafusion/src/format_partition_ddl.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 115
+crates/paimon/src/io/storage_oss.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 143
+crates/paimon/src/table/rest_env.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 22,24-25,334-342
+crates/paimon/src/catalog/filesystem.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 29,50-58,271-328,441-451,513-520,522-528,916-919,926-929,933-959,1842-2040,2480-2492
+crates/integrations/datafusion/tests/time_travel_schema_tests.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 194-546
+crates/paimon/src/io/file_io/fuse.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 46-53
+crates/integrations/datafusion/tests/read_files_behavior.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 294-302
+crates/integrations/datafusion/src/relation_planner.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 20,22,26,30,35-36,45-608,634,673,711,716,813
+crates/integrations/datafusion/src/format_partition_repair.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 39
+docs/src/sql.md
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 46,921-1002
+crates/integrations/datafusion/README.md
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 152-168
+crates/paimon/src/api/rest_api.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 385,401-410,428-440,443-444
+crates/integration_tests/Cargo.toml
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 41
+crates/integrations/datafusion/src/procedures/compat.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 61
+crates/paimon/src/io/storage_s3.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 21-24,33,189,193-223,587-827
+crates/paimon/src/catalog/mod.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 432-442,509-522
+crates/paimon/src/table/kv_data_file_writer.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 23,211,422,429,539
+crates/paimon/src/io/user_agent.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 28-58,140,142,147-148,167,170-185,319,335
+crates/integrations/datafusion/src/physical_plan/scan.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 21,25,1101
+crates/paimon/src/io/mod.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 32,37
+crates/paimon/src/table/table_commit.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 1103-1105
+crates/paimon/src/catalog/rest/rest_catalog.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 32,282-285,378,384-395,961-1017,1669,1702,1710-1728,1765-1767,1773-1775
+crates/paimon/src/table/data_file_writer.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 43-48,582,594
+crates/integrations/datafusion/src/format_partition_analyze.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 60
+crates/integrations/datafusion/src/sql_context/ctas.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 1-347
+crates/integrations/datafusion/tests/create_table_as.rs
+  s_e5bc9aa80a4455::t_ec0df953cc340c 196-199
+  s_e5bc9aa80a4455::t_1a00768031cae9 169-195,200-202
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 1-168,203-1045
+crates/paimon/Cargo.toml
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 58,64,72-76,154
+crates/paimon/tests/rest_catalog_test.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 1939-1968,1972-2140,2142-2167,2169-2231
+crates/integrations/datafusion/src/read_files/mod.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 53
+crates/paimon/src/api/rest_client.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 27,31,36-37,65,67-69,77-80,84-85,89-93,98-108,151-191,245,293-294,303,307-347,350,359
+crates/integrations/datafusion/src/read_files/projection.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 48-58,63,67,90,93,113,117-129
+crates/paimon/tests/mock_server.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 39-46,224,237,259,788-791,795,820,822,825,827-828
+crates/integrations/datafusion/src/physical_plan/mod.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 24-32,37-118
+crates/paimon/src/io/file_io.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 22,36,98-99,125-191,948-951,981-999,1002-1004,1043-1052,1063,1067-1072,1077,1079-1097,1099-1101,1103-1105,1112-1130,1132,1134-1136,1139-1183,1186-1189,1192,1194,1199-1201,1208,1212-1224,1240-1250,2216-2225,4724-4796,4800-4801,4803-4804,4810-4811,4816-4823,4839-4845,4877-4883
+crates/integrations/datafusion/tests/create_table_as/execution.rs
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 1-786
+crates/integrations/datafusion/src/sql_context.rs
+  s_e5bc9aa80a4455::t_1a00768031cae9 81-83
+  s_e5bc9aa80a4455::t_ec0df953cc340c 84-85
+  s_e5bc9aa80a4455::t_cd9b8846db0c66 31,64,90,107-108,505-516,542-582,587-595,983-991,993-996,998-1005,1007-1013,1015,1017,1019,1021-1023,1025-1026,1029,1041-1052,1060,1063,1093,1095-1096,1123-1127,1153,1155-1156,1158-1168,1189-1195,1644,2769,2945-3009,3258,3301-3313,3437-3454,3456-3469,3475-3496,3498-3500,3505-3513,3515,3517,3520-3521,3526-3527,3529-3536,3538-3543,3545-3546,3548-3550,3552-3554,3557-3564,3566-3576,3975-3976,3981-3986,3991-3998,4416-4418,4422-4426,4428-4432,4434-4460,4462-4477,4479-4499,4501-4502,4505-4510,4512-4521,4523,4526-4540,8591,8727,8730-8758,8760-8777,9427-9437,9441-9455,9459-9471,9483-9486,9491-9507,9509-9517,9523,9525-9543,9551,10554-10589,10593-10601,10603-10607,10612-10629
+  s_e5bc9aa80a4455::t_26e41c5ff1b31b 1030-1040,2807,2937
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cafcecacd5ab09f02b356231b86a044eed5ac6e5",
+  "prompts": {},
+  "sessions": {
+    "s_e5bc9aa80a4455": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a2112d-c7cd-70a3-ba4d-9087d58a182a",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Nicholas Jiang <nicholasjiang@apache.org>"
+    }
+  }
+}
